@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Artist Profile</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    color: white;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+/* Profile Card */
+.profile {
+    max-width: 800px;
+    margin: auto;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+/* Image */
+.profile img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 4px solid rgba(255,255,255,0.3);
+}
+
+/* Name */
+.profile h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Bio */
+.profile p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* Info Section */
+.info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.info div {
+    text-align: center;
+}
+
+/* Songs */
+.songs {
+    margin-top: 25px;
+    text-align: left;
+}
+
+.songs h3 {
+    margin-bottom: 10px;
+}
+
+.songs li {
+    margin: 8px 0;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #00adb5;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #00575c;
+}
+
+/* Responsive */
+@media(max-width:600px){
+    .info {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<div class="header">
+    <h1>🎵 Artist Profile</h1>
+</div>
+
+<div class="profile">
+
+    <img src="https://www.opnlttr.com/sites/default/files/bco0seycmaacinw_5.jpg" alt="Artist">
+
+    <h2>Artist Name</h2>
+
+    <p>
+        Taylor Swift is an American singer-songwriter born on December 13, 1989, in West Reading, Pennsylvania, who has become one of the best-selling and most influential artists in history.  She began her career as a country artist in 2006 with her self-titled debut album before transitioning to pop with 1989 in 2014, and later exploring indie folk and synth-pop in subsequent years.
+    </p>
+
+    <!-- Info -->
+    <div class="info">
+        <div>
+            <h3>Genre</h3>
+            <p>R&B, pop, and hip-hop</p>
+        </div>
+        <div>
+            <h3>Albums</h3>
+            <p>12</p>
+        </div>
+        <div>
+            <h3>Years Active</h3>
+            <p>2006–Present</p>
+        </div>
+    </div>
+
+    <!-- Songs -->
+    <div class="songs">
+        <h3>🎧 Popular Songs & Most Streamed Hits</h3>
+        <ul>
+            <li>"We Are Never Ever Getting Back Together" (2012)</li>
+            <li>"Shake It Off" (2014)</li>
+            <li>"Blank Space" (2014)</li>
+            <li>"Bad Blood" (2015)</li>
+            <li>"Look What You Made Me Do" (2017)</li>
+        <li>"You Need to Calm Down" (2019)</li>
+        <li>"Cruel Summer" (2019, reached No. 1 in 2023)</li>
+        <li>"Cardigan" (2020)</li>
+        <li>"Willow" (2020)</li>
+        <li>"All Too Well (10 Minute Version)" (2021)</li>
+        <li>"Anti-Hero" (2022)</li>
+        <li>"Is It Now?" (2023)</li>
+        <li>"Fortnight" (2024)</li>
+        <li>"Opalite" (2025) – her latest No. 1 hit </li>
+
+        </ul>
+
+    </div>
+
+    <a href="INDEX.html" class="btn">Back</a>
+
+</div>
+
+</body>
+</html>

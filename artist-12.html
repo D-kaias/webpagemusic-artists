@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Artist Profile</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    color: white;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+/* Profile Card */
+.profile {
+    max-width: 800px;
+    margin: auto;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+/* Image */
+.profile img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 4px solid rgba(255,255,255,0.3);
+}
+
+/* Name */
+.profile h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Bio */
+.profile p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* Info Section */
+.info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.info div {
+    text-align: center;
+}
+
+/* Songs */
+.songs {
+    margin-top: 25px;
+    text-align: left;
+}
+
+.songs h3 {
+    margin-bottom: 10px;
+}
+
+.songs li {
+    margin: 8px 0;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #00adb5;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #00575c;
+}
+
+/* Responsive */
+@media(max-width:600px){
+    .info {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<div class="header">
+    <h1>🎵 Artist Profile</h1>
+</div>
+
+<div class="profile">
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhTjsKCgsP_lT8is41u5sMslzC_e2bu1o5ng&s" alt="Artist">
+
+    <h2>Artist Name</h2>
+
+    <p>
+Mariah Carey is an American singer-songwriter, record producer, and actress. Dubbed the "Songbird Supreme", Carey is known for her five-octave vocal range, melismatic singing style, signature use of the whistle register, and diva persona.    </p>
+
+    <!-- Info -->
+    <div class="info">
+        <div>
+            <h3>Genre</h3>
+            <p>R&B, pop, hip-hop, and soul&B, pop, and hip-hop</p>
+        </div>
+        <div>
+            <h3>Albums</h3>
+            <p>16</p>
+        </div>
+        <div>
+            <h3>Years Active</h3>
+            <p>1990–Present</p>
+        </div>
+    </div>
+
+    <!-- Songs -->
+    <div class="songs">
+        <h3>🎧 Popular Songs & Most Streamed Hits</h3>
+        <ul>
+            <li>"Vision of Love" (1990)</li>
+            <li>"Hero" (1993)</li>
+            <li>"Fantasy" (1995)</li>
+            <li>"One Sweet Day" (1995)</li>
+            <li>"Always Be My Baby" (1996)</li>
+            <li>"Honey" (1997)</li>
+            <li>"My All" (1998)</li>
+            <li>"Heartbreaker" (1999)</li>
+            <li>"Thank God I Found You" (1999)</li>
+            <li>"Don't Forget About Us" (2005)</li>
+            <li>"Touch My Body" (2008)</li>
+        </ul>
+    </div>
+
+    <a href="INDEX.html" class="btn">Back</a>
+
+</div>
+
+</body>
+</html>
